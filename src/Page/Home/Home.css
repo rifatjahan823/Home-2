@@ -1,0 +1,98 @@
+.side-menu{
+    position: relative;
+    margin-top: -10px;
+}
+
+.user{
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #d8dbdb;
+    width: 100%;
+}
+.user h6{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+
+letter-spacing: -0.32px;
+
+/* bs-dark */
+
+color: #212529;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    text-align: start;
+}
+li a:hover{
+    color: #e8693d;
+}
+.home-btn{
+   border: 0px;
+    background: #0D6EFD;
+   padding: 5px 65px;
+    color:white;
+    border-radius: 5px;
+
+}
+.submit-btn{
+    border: 0px;
+    background: #0D6EFD;
+   padding: 6px 20px;
+     color:white;
+     border-radius: 5px;
+     margin-top: 13px;
+}
+.mail p{
+    color: #6C757D;
+    font-size: 11px;
+    letter-spacing: 0.7;
+    margin-right:4px;
+}
+.date p{
+    color: #6C757D;
+    font-size: 11px;
+    letter-spacing: 0.7;
+    position:relative;
+    padding-left:4px;
+}
+.date::before{
+    content: '';
+    display: block;
+    width: 1px;
+    height:10px;
+    background-color: #6C757D;
+    margin-top:3px;
+    position: absolute;
+}
+.tables{
+    margin-top:60px;
+}
+.tables h2{
+    font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #212529;
+}
+.add-btn{
+    border: 1px solid #6C757D;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 10px;
+}
+.add-btn button{
+    border: 0;
+    background-color: white;
+}
